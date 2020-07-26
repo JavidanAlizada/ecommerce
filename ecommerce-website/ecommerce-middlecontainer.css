@@ -1,0 +1,828 @@
+.item{
+    margin-right: 30px !important;
+}
+.item10{
+    margin-right: 55px !important;
+}
+.item100{
+    margin-right: 55px !important;
+}
+.middlecontainer-slider3
+{ position: relative;
+top: 500px;}
+.slider {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 320px;
+    margin: auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+  .slider a{
+      text-align: center;
+      text-decoration: none !important;
+     color: black !important;
+  }
+  .slider::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .slider .slide {
+    display: flex;
+    position: absolute;
+    left: 0;
+    transition: 0.3s left ease-in-out;
+  }
+  
+  
+  .slider .item {
+    margin-left: 10px;
+    margin-right:210px;
+  }
+  
+  /* .slider .item:last-child {
+    margin-right: 0;
+  } */
+  
+  .ctrl {
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  .ctrl-btn {
+    padding: 20px 20px;
+    min-width: 50px;
+    background: #fff;
+    border: none;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+  
+    position: absolute;
+    top: 50%;
+    margin-top: -27.5px;
+  }
+  
+  .ctrl-btn.pro-prev {
+    left: 0;
+  }
+  
+  .ctrl-btn.pro-next {
+    right: 0;
+  }
+  .slider a{
+      z-index: 1;
+      text-decoration: none;
+  }
+  .middlecnt-slider-btn1{
+      background-color: green;
+      border: 0px;
+      outline: 0;
+      position: relative;
+      left: 40px;
+      cursor: pointer;
+      width: 70px;
+      height: 30px;
+  }
+  .middlecnt-slider-btn1:hover{
+      background-color: darkgreen;
+  }
+  .middlecnt-slider-btn2{
+    background-color: green;
+    border: 0px;
+    outline: 0;
+    position: relative;
+    left: 40px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}
+.middlecnt-slider-btn2:hover{
+    background-color: darkgreen;
+}
+
+.middlecnt-slider-btn3{
+    background-color: green;
+    border: 0px;
+    outline: 0;
+    position: relative;
+    left: 40px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}
+.middlecnt-slider-btn3:hover{
+    background-color: darkgreen;
+}
+.middlecnt-slider-btn4{
+    background-color: green;
+    border: 0px;
+    outline: 0;
+    position: relative;
+    left: 45px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}
+.middlecnt-slider-btn4:hover{
+    background-color: darkgreen;
+}
+.middlecnt-slider-btn5{
+    background-color: green;
+    border: 0px;
+    outline: 0;
+    position: relative;
+    left: 40px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}
+.middlecnt-slider-btn5:hover{
+    background-color: darkgreen;
+}
+.middlecnt-slider-btn6{
+    background-color: green;
+    border: 0px;
+    outline: 0;
+    position: relative;
+    left: 40px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}
+.middlecnt-slider-btn6:hover{
+    background-color: darkgreen;
+}
+.middlecnt-slider-btn7{
+    background-color: green;
+    border: 0px;
+    outline: 0;
+    position: relative;
+    left: 40px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}
+.middlecnt-slider-btn7:hover{
+    background-color: darkgreen;
+}
+.middlecnt-slider-item8{
+   position: relative;
+   left: -10px;
+}
+
+  .middlecnt-slider-btn8{
+      background-color: green;
+      border: 0px;
+      outline: 0;
+      position: relative;
+      left: 30px;
+      cursor: pointer;
+      width: 70px;
+      height: 30px;
+  }
+  .middlecnt-slider-btn8:hover{
+      background-color: darkgreen;
+  }
+  .middlecnt-slider-btn1{
+    background-color: green;
+    border: 0px;
+    outline: 0;
+    position: relative;
+    left: 30px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}
+.middlecnt-slider-btn1:hover{
+    background-color: darkgreen;
+}
+.middlecnt-slider-btn1{
+    background-color: green;
+    border: 0px;
+    outline: 0;
+    position: relative;
+    left: 30px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}
+.middlecnt-slider-btn1:hover{
+    background-color: darkgreen;
+}
+.middlecnt-slider-btn1{
+    background-color: green;
+    border: 0px;
+    outline: 0;
+    position: relative;
+    left: 30px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}
+.middlecnt-slider-btn1:hover{
+    background-color: darkgreen;
+}
+.middlecnt-slider-btn1{
+    background-color: green;
+    border: 0px;
+    outline: 0;
+    position: relative;
+    left: 30px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}
+.middlecnt-slider-btn1:hover{
+    background-color: darkgreen;
+}
+.slider {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 250px;
+    margin: auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+  .slider a{
+      text-align: center;
+      text-decoration: none !important;
+     color: black !important;
+  }
+  .slider::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .slider .slide {
+    display: flex;
+    position: absolute;
+    left: 0;
+    transition: 0.3s left ease-in-out;
+  }
+  
+  .slider .item {
+    margin-left: 10px;
+    margin-right:210px;
+  }
+  
+  /* .slider .item:last-child {
+    margin-right: 0;
+  } */
+  
+  .ctrl {
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  .ctrl-btn {
+    padding: 20px 20px;
+    min-width: 50px;
+    background: #fff;
+    border: none;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+  
+    position: absolute;
+    top: 50%;
+    margin-top: -27.5px;
+  }
+  
+  .ctrl-btn.pro-prev {
+    left: 0;
+  }
+  
+  .ctrl-btn.pro-next {
+    right: 0;
+  }
+  .slider a{
+      z-index: 1;
+      text-decoration: none;
+  }
+  .middlecnt-slider-btn1{
+      background-color: green;
+      border: 0px;
+      outline: 0;
+      position: relative;
+      left: 40px;
+      cursor: pointer;
+      width: 70px;
+      height: 30px;
+  }
+  .middlecnt-slider-btn1:hover{
+      background-color: darkgreen;
+  }
+  .middlecnt-slider-btn2{
+    background-color: green;
+    border: 0px;
+    outline: 0;
+    position: relative;
+    left: 40px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}
+.middlecnt-slider-btn2:hover{
+    background-color: darkgreen;
+}
+
+.middlecnt-slider-btn3{
+    background-color: green;
+    border: 0px;
+    outline: 0;
+    position: relative;
+    left: 40px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}
+.middlecnt-slider-btn3:hover{
+    background-color: darkgreen;
+}
+.middlecnt-slider-btn4{
+    background-color: green;
+    border: 0px;
+    outline: 0;
+    position: relative;
+    left: 45px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}
+.middlecnt-slider-btn4:hover{
+    background-color: darkgreen;
+}
+.middlecnt-slider-btn5{
+    background-color: green;
+    border: 0px;
+    outline: 0;
+    position: relative;
+    left: 40px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}
+.middlecnt-slider-btn5:hover{
+    background-color: darkgreen;
+}
+.middlecnt-slider-btn6{
+    background-color: green;
+    border: 0px;
+    outline: 0;
+    position: relative;
+    left: 40px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}
+.middlecnt-slider-btn6:hover{
+    background-color: darkgreen;
+}
+.middlecnt-slider-btn7{
+    background-color: green;
+    border: 0px;
+    outline: 0;
+    position: relative;
+    left: 40px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}
+.middlecnt-slider-btn7:hover{
+    background-color: darkgreen;
+}
+.middlecnt-slider-item8{
+   position: relative;
+   left: -10px;
+}
+
+  .middlecnt-slider-btn8{
+      background-color: green;
+      border: 0px;
+      outline: 0;
+      position: relative;
+      left: 30px;
+      cursor: pointer;
+      width: 70px;
+      height: 30px;
+  }
+  .middlecnt-slider-btn8:hover{
+      background-color: darkgreen;
+  }
+  .middlecnt-slider-btn1{
+    background-color: green;
+    border: 0px;
+    outline: 0;
+    position: relative;
+    left: 30px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}
+.middlecnt-slider-btn1:hover{
+    background-color: darkgreen;
+}
+.middlecnt-slider-btn1{
+    background-color: green;
+    border: 0px;
+    outline: 0;
+    position: relative;
+    left: 30px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}
+.middlecnt-slider-btn1:hover{
+    background-color: darkgreen;
+}
+.middlecnt-slider-btn1{
+    background-color: green;
+    border: 0px;
+    outline: 0;
+    position: relative;
+    left: 30px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}
+.middlecnt-slider-btn1:hover{
+    background-color: darkgreen;
+}
+.middlecnt-slider-btn1{
+    background-color: green;
+    border: 0px;
+    outline: 0;
+    position: relative;
+    left: 30px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}
+.middlecnt-slider-btn1:hover{
+    background-color: darkgreen;
+}
+.slider10 {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 740px;
+    margin: auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+  .slider10 a{
+      text-align: center;
+      text-decoration: none !important;
+     color: black !important;
+  }
+  .slider10::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .slider10 .slide10 {
+    display: flex;
+    position: absolute;
+    left: 0;
+    transition: 0.3s left ease-in-out;
+  }
+  
+  .slider10 .item10 {
+    margin-left: 10px;
+    margin-right:210px;
+  }
+  
+  /* .slider .item:last-child {
+    margin-right: 0;
+  } */
+  .item{
+      margin-right: 60px !important;
+  }
+  .ctrl10 {
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  .ctrl-btn10 {
+    padding: 20px 20px;
+    min-width: 50px;
+    background: #fff;
+    border: none;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+  
+    position: absolute;
+    top: 50%;
+    margin-top: -27.5px;
+  }
+  
+  .ctrl-btn10.pro-prev10 {
+    left: 0;
+  }
+  
+  .ctrl-btn10 .pro-next10 {
+    right: 0;
+  }
+  .slider10 a{
+      z-index: 1;
+      text-decoration: none;
+  }
+  .middlecontainer-slider1 a:hover{
+   text-decoration: none;
+  }
+  .middlecontainer-slider2 a:hover{
+    text-decoration: none;
+   }
+  .middlecnt-slider-btn10{
+      background-color: green;
+      border: 0px;
+      outline: 0;
+      position: relative;
+      left: 40px;
+      cursor: pointer;
+      width: 70px;
+      height: 30px;
+  }
+  .middlecnt-slider-btn10:hover{
+      background-color: darkgreen;
+  }
+  .middlecnt-slider-btn20{
+    background-color: green;
+    border: 0px;
+    outline: 0;
+    position: relative;
+    left: 40px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}
+.middlecnt-slider-btn20:hover{
+    background-color: darkgreen;
+}
+
+.middlecnt-slider-btn30{
+    background-color: green;
+    border: 0px;
+    outline: 0;
+    position: relative;
+    left: 40px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}
+.middlecnt-slider-btn30:hover{
+    background-color: darkgreen;
+}
+.middlecnt-slider-btn40{
+    background-color: green;
+    border: 0px;
+    outline: 0;
+    position: relative;
+    left: 45px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}
+.middlecnt-slider-btn40:hover{
+    background-color: darkgreen;
+}
+.middlecnt-slider-btn50{
+    background-color: green;
+    border: 0px;
+    outline: 0;
+    position: relative;
+    left: 40px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}
+.middlecnt-slider-btn50:hover{
+    background-color: darkgreen;
+}
+.middlecnt-slider-btn60{
+    background-color: green;
+    border: 0px;
+    outline: 0;
+    position: relative;
+    left: 40px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}
+.middlecnt-slider-btn60:hover{
+    background-color: darkgreen;
+}
+.item{
+    margin-right: 60px;
+}
+.middlecnt-slider-btn70{
+    background-color: green;
+    border: 0px;
+    outline: 0;
+    position: relative;
+    left: 40px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}
+.middlecnt-slider-btn70:hover{
+    background-color: darkgreen;
+}
+.middlecnt-slider-item8{
+   position: relative;
+   left: -10px;
+}
+
+  .middlecnt-slider-btn8{
+      background-color: green;
+      border: 0px;
+      outline: 0;
+      position: relative;
+      left: 30px;
+      cursor: pointer;
+      width: 70px;
+      height: 30px;
+  }
+  .middlecnt-slider-btn8:hover{
+      background-color: darkgreen;
+  }
+  /* .middlecnt-slider-btn1{
+    background-color: green;
+    border: 0px;
+    outline: 0;
+    position: relative;
+    left: 30px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}
+.middlecnt-slider-btn1:hover{
+    background-color: darkgreen;
+}
+.middlecnt-slider-btn1{
+    background-color: green;
+    border: 0px;
+    outline: 0;
+    position: relative;
+    left: 30px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}
+.middlecnt-slider-btn1:hover{
+    background-color: darkgreen;
+}
+.middlecnt-slider-btn1{
+    background-color: green;
+    border: 0px;
+    outline: 0;
+    position: relative;
+    left: 30px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}
+.middlecnt-slider-btn1:hover{
+    background-color: darkgreen;
+}
+.middlecnt-slider-btn1{
+    background-color: green;
+    border: 0px;
+    outline: 0;
+    position: relative;
+    left: 30px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}
+.middlecnt-slider-btn1:hover{
+    background-color: darkgreen;
+} */
+.slider10 a{
+    z-index: 1;
+    text-decoration: none;
+}
+.middlecontainer-slider1 a:hover{
+ text-decoration: none;
+}
+.middlecontainer-slider2 a:hover{
+  text-decoration: none;
+ }
+.middlecnt-slider-btn100{
+    background-color: green;
+    border: 0px;
+    outline: 0;
+    position: relative;
+    left: 40px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}
+.middlecnt-slider-btn100:hover{
+    background-color: darkgreen;
+}
+.middlecnt-slider-btn200{
+  background-color: green;
+  border: 0px;
+  outline: 0;
+  position: relative;
+  left: 40px;
+  cursor: pointer;
+  width: 70px;
+  height: 30px;
+}
+.middlecnt-slider-btn200:hover{
+  background-color: darkgreen;
+}
+
+.middlecnt-slider-btn300{
+  background-color: green;
+  border: 0px;
+  outline: 0;
+  position: relative;
+  left: 40px;
+  cursor: pointer;
+  width: 70px;
+  height: 30px;
+}
+.middlecnt-slider-btn300:hover{
+  background-color: darkgreen;
+}
+.middlecnt-slider-btn400{
+  background-color: green;
+  border: 0px;
+  outline: 0;
+  position: relative;
+  left: 45px;
+  cursor: pointer;
+  width: 70px;
+  height: 30px;
+}
+.middlecnt-slider-btn400:hover{
+  background-color: darkgreen;
+}
+.middlecnt-slider-btn500{
+  background-color: green;
+  border: 0px;
+  outline: 0;
+  position: relative;
+  left: 40px;
+  cursor: pointer;
+  width: 70px;
+  height: 30px;
+}
+.middlecnt-slider-btn500:hover{
+  background-color: darkgreen;
+}
+.middlecnt-slider-btn600{
+  background-color: green;
+  border: 0px;
+  outline: 0;
+  position: relative;
+  left: 40px;
+  cursor: pointer;
+  width: 70px;
+  height: 30px;
+}
+.middlecnt-slider-btn600:hover{
+  background-color: darkgreen;
+}
+.item{
+  margin-right: 60px;
+}
+.middlecnt-slider-btn700{
+  background-color: green;
+  border: 0px;
+  outline: 0;
+  position: relative;
+  left: 40px;
+  cursor: pointer;
+  width: 70px;
+  height: 30px;
+}
+.middlecnt-slider-btn700:hover{
+  background-color: darkgreen;
+}
+.middlecnt-slider-item8{
+ position: relative;
+ left: -10px;
+}
+
+.middlecnt-slider-btn8{
+    background-color: green;
+    border: 0px;
+    outline: 0;
+    position: relative;
+    left: 30px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}

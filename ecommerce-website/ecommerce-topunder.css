@@ -1,0 +1,247 @@
+.sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+
+    background-color: black; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  }
+  
+  /* The sidebar links */
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    margin-bottom: 20px;
+    transition: 0.3s;
+  }
+  
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidebar a:hover {
+    color: #f1f1f1;
+    text-decoration: none !important;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 40px;
+    outline: 0;
+    margin-left: 50px;
+    z-index: 1 !important; 
+
+  }
+  
+  /* The button used to open the sidebar */
+  .openbtn {
+      outline: 0px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    left: 3px;
+    position: absolute;
+    top: 75px;
+    outline: 0px;
+  }
+  
+  .closebtn{
+ position: relative;
+ left: 170px;
+    margin: 0px !important;
+    margin-left: 0px !important;
+    padding: 0px !important;
+    width: 60px;
+    height: 60px;
+    top: -100px;
+  }
+  .closebtn:hover{
+   background-color: red;
+  }
+  .openbtn:hover {
+    background-color: white;
+    color: red;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #sidebaranimation {
+    transition: margin-left .5s; /* If you want a transition effect */
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+  .sidebarhomelink{
+      background-color: grey;
+      color: white;
+  }
+  .sidebarhomelink:hover{
+      background-color: rgb(66, 128, 136);
+  }
+  .sidebarlink:hover {
+background-color: rgb(66, 128, 136);
+  }
+
+  /* catagories */
+.tpundercontent a{
+text-decoration: none;
+color: black; 
+display: inline-block;
+
+}
+.tpundercontent{
+    display: inline-block;
+
+}
+.tpundercontent-catagory-link1-btnid{
+    padding: 10px;
+    background-color: seagreen;
+  position: relative;
+  left: 70px;
+  top: -20px;
+  border: 1px solid white;
+  border-radius: 17px;
+  display: inline;
+
+}
+.tpundercontent-catagory-link1-btnid:hover{
+    box-shadow: 0px 16px 16px 0px gray;
+    transform: scale(1.1);
+}
+.tpundercontent-catagory-link2-btnid{
+    padding: 10px;
+    background-color: seagreen;
+  position: relative;
+  left: 210px;
+  top: -70px;
+  border: 1px solid white;
+  border-radius: 17px;
+  display: inline;
+
+}
+.tpundercontent-catagory-link2-btnid:hover{
+    box-shadow: 0px 16px 16px 0px gray;
+    transform: scale(1.1);
+}
+.tpundercontent-catagory-link3-btnid{
+    padding: 10px;
+    background-color: seagreen;
+  position: relative;
+  left: 360px;
+  top: -120px;
+  border: 1px solid white;
+  border-radius: 17px;
+  display: inline;
+
+}
+.tpundercontent-catagory-link3-btnid:hover{
+    box-shadow: 0px 16px 16px 0px gray;
+    transform: scale(1.1);
+}
+.tpundercontent-catagory-link4-btnid{
+    padding: 10px;
+    background-color: seagreen;
+  position: relative;
+  left: 500px;
+  top: -170px;
+  border: 1px solid white;
+  border-radius: 17px;
+  display: inline;
+
+}
+.tpundercontent a:hover{
+  text-decoration: none !important;
+  color: black !important;
+}
+.tpundercontent-catagory-link4-btnid:hover{
+    box-shadow: 0px 16px 16px 0px gray;
+    transform: scale(1.1);
+}
+.tpundercontent-catagory-link5-btnid{
+    padding: 10px;
+    background-color: seagreen;
+  position: relative;
+  left: 630px;
+  top: -221px;
+  border: 1px solid white;
+  border-radius: 17px;
+  display: inline;
+
+}
+.tpundercontent-catagory-link5-btnid:hover{
+    box-shadow: 0px 16px 16px 0px gray;
+    transform: scale(1.1);
+}
+.tpundercontent-catagory-link6-btnid{
+    padding: 10px;
+    background-color: seagreen;
+  position: relative;
+  left: 770px;
+  top: -272px;
+  border: 1px solid white;
+  border-radius: 17px;
+  display: inline;
+
+}
+.tpundercontent-catagory-link6-btnid:hover{
+    box-shadow: 0px 16px 16px 0px gray;
+    transform: scale(1.1);
+}
+.tpundercontent-catagory-link7-btnid{
+    padding: 10px;
+    background-color: seagreen;
+  position: relative;
+  left: 980px;
+  top: -325px;
+  border: 1px solid white;
+  border-radius: 17px;
+  display: inline;
+
+}
+.tpundercontent-catagory-link7-btnid:hover{
+    box-shadow: 0px 16px 16px 0px gray;
+    transform: scale(1.1);
+}.tpundercontent-catagory-link8-btnid{
+    padding: 10px;
+    background-color: seagreen;
+  position: relative;
+  left: 1090px;
+  top: -378px;
+  border: 1px solid white;
+  border-radius: 17px;
+  display: inline;
+
+}
+.tpundercontent-catagory-link8-btnid:hover{
+    box-shadow: 0px 16px 16px 0px gray;
+    transform: scale(1.1);
+}.tpundercontent-catagory-link9-btnid{
+    padding: 10px;
+    background-color: seagreen;
+  position: relative;
+  left: 1230px;
+  top: -430px;
+  border: 1px solid white;
+  border-radius: 17px;
+  display: inline;
+
+}
+.tpundercontent-catagory-link9-btnid:hover{
+    box-shadow: 0px 16px 16px 0px gray;
+    transform: scale(1.1);
+}

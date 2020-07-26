@@ -1,0 +1,13 @@
+:root{
+    --arxaplanrengi:white;
+    --yazirengi:black;
+
+}
+body{
+    background-color: var(--arxaplanrengi);
+    color: var(--yazirengi);
+}
+/* .root{
+    margin: 0px 100px 0px 100px;
+    margin-right: 300px !important;
+} */
